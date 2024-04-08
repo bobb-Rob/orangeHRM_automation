@@ -1,6 +1,20 @@
-# OrangeHRM Login in Automation
+# OrangeHRM Automation
 
-This is a demo project to automate login scenarios of a publicly accessible website using JavaScipt, Cypress, and Mocha. It is a project showing the effectiveness, and ease of use of Cypress to automate web applications.
+This is a demo project to automate the listed scenarios below using JavaScipt, Cypress, and Mocha. It is a project showing the effectiveness, and ease of use of Cypress to automate web applications.
+
+> Question 1: Write a test script to create, edit and delete "Admin" 
+    
+    Steps: 
+    1. Login with the following credentials: Username: Admin and Password: admin123  
+    2. Navigate to "Admin" on the side navigation bar.
+    3. Click on "Add"
+
+> Question 2: Write a test script to create, edit and delete "Employee"
+    
+    Steps: 
+    1. Login with the following credentials: Username: Admin and Password: admin123  
+    2. Navigate to "PIM" on the side navigation bar.
+    3. Click on "Add"
 
 ## Built With
 
@@ -19,8 +33,8 @@ This is a demo project to automate login scenarios of a publicly accessible webs
 ### Setup
 
 - Open a command line terminal (Git bash preferrably) and navigate to a directory where you would like to save the work folder using cd.
-- Clone the repository with git clone https://github.com/wale-prog/orangeHRM_automation.git
-- To get the curent working tree, git fetch --all, then checkout to "dev" branch.
+- Clone the repository with git clone https://github.com/bobb-Rob/orangeHRM_automation.git
+- To get the curent working tree, git fetch --all, then checkout to "login-test" branch.
 - Finally, run the test scripts within the `login.cy.js` file by doing the following:
   - navigate to the root directory with a command line terminal.
   - run `npm install`, this install all the project dependencies.
@@ -54,3 +68,16 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
+
+
+Question 1: Write a test script to create, edit and delete "Admin" 
+Steps: 
+1. Login with the following credentials: Username: Admin and Password: admin123  
+2. Navigate to "Admin" on the side navigation bar.
+3. Click on "Add"
+
+Question 2: Write a test script to create, edit and delete "Employee"
+Steps: 
+1. Login with the following credentials: Username: Admin and Password: admin123  
+2. Navigate to "PIM" on the side navigation bar.
+3. Click on "Add"
